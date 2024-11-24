@@ -19,7 +19,7 @@ print(f"Confusion Matrix:\n{confusion_matrix(y_test, y_pred_linear_class)}")
 print(f"Classification Report:\n{classification_report(y_test, y_pred_linear_class)}\n")
 
 
-<h1> # 2. Logistic Regression for Classification </h1>
+ # 2. Logistic Regression for Classification 
 
 # Initialize the Logistic Regression model
 logistic_model = LogisticRegression(max_iter=10000)  # Increase max_iter if convergence warnings occur
